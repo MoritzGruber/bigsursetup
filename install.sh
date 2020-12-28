@@ -40,4 +40,4 @@ cd ~/tmp && wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Scheme
 
 git config --global user.name "flastname"
 git config --global user.email "firstname.lastname@cyclus.digital"
-
+git config --global push.default current
