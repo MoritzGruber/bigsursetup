@@ -16,6 +16,8 @@ brew install --cask evernote
 brew install --cask spotify
 brew install --cask tunnelblick
 brew install --cask rectangle
+brew install --cask 1password
+
 mkdir -p ~/tmp
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 cd ~/Library/Fonts && curl -fLo "Ubuntu Mono Nerd Font Complete Mono.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/UbuntuMono/Regular/complete/Ubuntu%20Mono%20Nerd%20Font%20Complete%20Mono.ttf
@@ -36,5 +38,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
 cd ~/tmp && wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/FirefoxDev.itermcolors
 
-
+git config --global user.name "flastname"
+git config --global user.email "firstname.lastname@cyclus.digital"
 
