@@ -1,0 +1,77 @@
+{
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "skipFiles": [
+    "${workspaceFolder}/node_modules/**/*.js",
+    "${workspaceFolder}/lib/**/*.js",
+    "<node_internals>/**/*.js"
+  ],
+  "editor.largeFileOptimizations": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "cSpell.userWords": [
+    "Phnummer",
+    "caisy",
+    "digitalocean",
+    "fulltext",
+    "gedk",
+    "kubernetes",
+    "linie",
+    "linkerd",
+    "onboarded",
+    "upsert",
+    "uuidv",
+    "varchar"
+  ],
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.useLanguageServer": true,
+  "go.trace.server": "messages",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "terminal.external.osxExec": "iTerm2.app",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack":"#003440",
+    "terminal.ansiBrightBlack":"#665C54",
+    "terminal.ansiBrightBlue":"#0D6678",
+    "terminal.ansiBrightCyan":"#8BA59B",
+    "terminal.ansiBrightGreen":"#65bb46",
+    "terminal.ansiBrightMagenta":"#8F4673",
+    "terminal.ansiBrightRed":"#FB543F",
+    "terminal.ansiBrightWhite":"#FDF4C1",
+    "terminal.ansiBrightYellow":"#FAC03B",
+    "terminal.ansiCyan":"#8BA59B",
+    "terminal.ansiGreen":"#95C085",
+    "terminal.ansiMagenta":"#8F4673",
+    "terminal.ansiRed":"#FB543F",
+    "terminal.ansiWhite":"#A89984",
+    "terminal.ansiYellow":"#FAC03B"
+  }
+}
