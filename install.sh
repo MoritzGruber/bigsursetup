@@ -17,6 +17,7 @@ brew install --cask spotify
 brew install --cask tunnelblick
 brew install --cask rectangle
 brew install --cask 1password
+brew install k6
 
 mkdir -p ~/tmp
 cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
